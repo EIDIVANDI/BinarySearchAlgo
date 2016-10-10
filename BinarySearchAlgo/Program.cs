@@ -11,6 +11,7 @@ namespace BinarySearchAlgoSolution
         {
             int[] arr = new int[] { 1, 2, 3, 4, 5, 16, 17, 18 };
             Console.WriteLine("The item index is : {0}" , BinarySearchAlgo<int>(arr, 5, 0, arr.GetUpperBound(0)));
+
             Console.ReadLine();
         }
 
